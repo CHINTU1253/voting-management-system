@@ -1,8 +1,11 @@
 <html>
 <head>
-    <title>Voting Mangement System</title>    
+    <title>Voting Mangement System</title>
+    <link rel="stylesheet" type="text/css" href="voting.css">
+ </head>     
 <body>
 <div id ="form">
+<form action="thanks.html"></form>
 <fieldset>
 <legend><h1>Voting Management System</h1></legend>
 <label>Name:</label>&nbap &nbap
