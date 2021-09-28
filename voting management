@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Voting Mangement System</title>    
+<body>
+<div id ="form">
+<fieldset>
+<legend><h1>Voting Management System</h1></legend>
+<label>Name:</label>&nbap &nbap
+<input type="text" name="name" placeholder="Enter Your Name" required><br><br>
+<label>Father Name:</label>&nbap &nbap
+<input type="text" name="fname" placeholder="Enter Your Father Name" required><br><br>
+<label>DOB:</label>&nbap &nbap
+<input type="date" name="dob" required><br><br>
+<label>Gender:</label>&nbap &nbap
+<input type="radio" name="gender" class="g" value="male">Male
+<input type="radio" name="gender" class="g" value="female" checked>Female
+<br><br>
+<label>VoterId:</label>&nbap &nbap
+<input type="number" name="voterid" placeholder="Enter Your VoterId Number" maxlength ="15" required><br><br>
+
+<label>Political Parties</label>&nbap &nbap
+<select name="Political">
+<option value="NULL">Choose Political Party</option>
+<option value="TRS">TRS</option>
+<option value="TDP">TDP</option>
+<option value="CONGRESS">CONGRESS</option>
+<option value="YSRCP">YSRCP</option>
+<option value="JANASENA">JANASENA</option>
+</select><br>
+<input type="Submit" name="submit" value="Submit">
+</fieldset>
+</body>
+</html>
